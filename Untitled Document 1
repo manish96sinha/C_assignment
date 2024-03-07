@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+{
+           int n1 = 11,n2 = 22;
+		   char c1 = 'A' ,c2 = 'B';
+		   float f1 = 3.14 ,f2 = 5;
+		   double d1 = 8.12 ,d2 = 9;
+		   
+		   printf("Integer : n1 = %d n2 = %d \n",n1,n2);
+		   printf("Address : n1 = %u  n2 = %u \n", &n1,&n2);
+
+
+		   printf("char  c1 = %c c2 = %c \n",c1,c2);
+		   printf("Address  c1 = %u c2 = %u \n", &c1,&c2);
+		   
+
+		   printf("float  f1 = %f f2 = %f \n",f1,f2);
+		   printf("address  f1 = %u f2 = %u \n", &f1,&f2);
+		  
+		   printf("double  d1 = %lf  d2 = %lf \n",d1,d2);
+		   printf("Address  d1 = %u d2 = %u \n", &d1,&d2);
+
+
+
+		  return 0;
+}
